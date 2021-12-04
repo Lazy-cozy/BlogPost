@@ -29,17 +29,17 @@ body {
   .content a:hover,
   .contact-link:hover,
   .navbar-nav li a:hover {
-    color: #f7d23b !important;
+    color: #f7483b !important;
   }
   
   .home-button,
   .compose-button,
   .delete-button,
   .publish-button {
-    color: #f7d23b !important;
+    color: #f7483b !important;
     font-size: 12px;
     background-color: white;
-    border: 2px solid #f7d23b;
+    border: 2px solid #f7483b;
     transition-duration: 0.2s;
     padding: 10px 10px 10px 14px;
     letter-spacing: 5px;
@@ -51,7 +51,7 @@ body {
   .compose-button:hover,
   .publish-button:hover,
   .delete-button:hover {
-    background-color: #f7d23b;
+    background-color: #f7483b;
     color: white !important;
   }
   
@@ -108,7 +108,7 @@ body {
   }
   
   .auth input {
-    border: 1px solid #f7d23b;
+    border: 1px solid #f7483b;
     width: 250px;
     border-radius: 3px;
     padding: 10px 15px;
@@ -126,7 +126,7 @@ body {
     border: 0;
     padding: 10px 15px;
     color: white;
-    background-color: #f7d23b;
+    background-color: #f7483b;
     border-radius: 3px;
     width: 250px;
     margin: 0 auto 10px auto;

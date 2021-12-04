@@ -27,7 +27,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-const uri = "mongodb://localhost:27017/blogpostDB";
+const uri =process.env.ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 // mongoose.set("useCreateIndex", true);
 
@@ -119,7 +119,7 @@ app.get(
 );
 
 app.get(
-  "/auth/google/personalblog",
+  "/auth/google/blogpost",
   passport.authenticate("google", { failureRedirect: "/login" }),
   function (req, res) {
     res.redirect("/userhome");
